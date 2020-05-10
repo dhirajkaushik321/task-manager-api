@@ -29,7 +29,7 @@ router.post('/users/login',async (req,res)=>{
 
     }
     catch(error){
-        res.status(404).send(error)
+        res.status(400).send(error)
     }
 })
 // creating route for logout
